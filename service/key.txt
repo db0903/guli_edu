@@ -1,0 +1,12 @@
+
+阿里云上传图片服务
+    aliyun.oss.file.endpoint=oss-cn-beijing.aliyuncs.com
+    aliyun.oss.file.keyid=LTAI4GFmihHNgyfu9TyhAaiL
+    aliyun.oss.file.keysecret=h2GUIQcZeei4VdlRRjn82WyX74KVKh
+阿里云上传视频服务
+    aliyun.vod.file.keyid=LTAI4GFmihHNgyfu9TyhAaiL
+    aliyun.vod.file.keysecret=h2GUIQcZeei4VdlRRjn82WyX74KVKh
+阿里云短信服务
+    aliyun.msm.send.keyid=LTAI4GAS6zW5Gh6amLaHJBLT
+    aliyun.msm.send.keysecret=A0ZKeYdnQw0eWE1hR7BLmq0SOR5OMA
+    aliyun.msm.send.regionid=default
