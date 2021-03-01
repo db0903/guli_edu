@@ -31,7 +31,7 @@ public class UcenterMemberController {
     private UcenterMemberService ucenterMemberService;
 
     /**
-     * 用户登陆
+     * 用户名密码登陆
      * @param member 用户对象
      * @return 结果
      */
