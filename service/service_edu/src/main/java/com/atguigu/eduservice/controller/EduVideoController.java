@@ -1,4 +1,4 @@
-package com.atguigu.eduservice.controller.front;
+package com.atguigu.eduservice.controller;
 
 import com.atguigu.commonutils.Result;
 import com.atguigu.eduservice.client.VodClient;
