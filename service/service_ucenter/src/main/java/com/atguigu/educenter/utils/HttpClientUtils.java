@@ -137,7 +137,6 @@ public class HttpClientUtils {
 		return result;
 	}
 
-
 	/**
 	 * 提交form表单
 	 * @param url 地址
@@ -200,7 +199,6 @@ public class HttpClientUtils {
 
 	/**
 	 * 发送一个 GET 请求
-	 *
 	 * @param url url
 	 * @param charset charset
 	 * @param connTimeout  建立链接超时时间,毫秒.
@@ -248,11 +246,8 @@ public class HttpClientUtils {
 		}
 		return result;
 	}
-
-
 	/**
 	 * 从 response 里获取 charset
-	 *
 	 * @param ressponse ressponse
 	 * @return String
 	 */

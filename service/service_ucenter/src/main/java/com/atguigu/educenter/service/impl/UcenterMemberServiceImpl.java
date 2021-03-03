@@ -102,4 +102,16 @@ public class UcenterMemberServiceImpl extends ServiceImpl<UcenterMemberMapper, U
         ucenterMember.setIsDisabled(false);
         baseMapper.insert(ucenterMember);
     }
+    /**
+     * openid 查询是否有信息，没有插入数据,微信登陆
+     * @param openid 微信id
+     * @return UcenterMember 对象
+     */
+    @Override
+    public UcenterMember getOpenIdMember(String openid) {
+        QueryWrapper<UcenterMember> wrapper = new QueryWrapper<>();
+        wrapper.eq("openid", openid);
+        UcenterMember ucenterMember = baseMapper.selectOne(wrapper);
+        return ucenterMember;
+    }
 }
