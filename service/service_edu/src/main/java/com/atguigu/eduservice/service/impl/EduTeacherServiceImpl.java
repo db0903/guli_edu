@@ -46,8 +46,9 @@ public class EduTeacherServiceImpl extends ServiceImpl<EduTeacherMapper, EduTeac
         boolean hasNext = pageTeacher.hasNext();
         //是否有上一页
         boolean hasPrevious = pageTeacher.hasPrevious();
-        //获取分页数据，放到map集合中
-        Map<String,Object> map = new HashMap<>();
+        //获取分页数据，放到map集合中,设置map 初始值大小
+        int capacity = 16;
+        Map<String,Object> map = new HashMap<>(capacity);
         map.put("current",current);
         map.put("pages",pages);
         map.put("total",total);
